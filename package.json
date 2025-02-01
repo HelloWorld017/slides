@@ -1,0 +1,20 @@
+{
+  "name": "@nenw/slides",
+  "version": "1.0.0",
+  "description": "My markdown-based presentations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "nenw <khi@nenw.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "@slidev/cli": "^51.1.0"
+  },
+  "dependencies": {
+    "@iconify-json/fluent-emoji": "^1.2.2",
+    "@iconify-json/lucide": "^1.2.25",
+    "slidev-theme-geist": "^0.8.1"
+  }
+}

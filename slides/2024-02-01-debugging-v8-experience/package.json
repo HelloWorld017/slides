@@ -1,0 +1,15 @@
+{
+  "name": "@nenw/slides-2024-02-01-debugging-v8-experience",
+  "version": "1.0.0",
+  "description": "",
+  "main": "slides.md",
+  "scripts": {
+    "dev": "slidev"
+  },
+  "keywords": [],
+  "author": "nenw <khi@nenw.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^6.0.11"
+  }
+}
