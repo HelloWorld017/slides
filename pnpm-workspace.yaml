@@ -1,2 +1,8 @@
 packages:
-  - 'slides/*'
+  - slides/*
+
+ignoredBuiltDependencies:
+  - vue-demi
+
+onlyBuiltDependencies:
+  - esbuild

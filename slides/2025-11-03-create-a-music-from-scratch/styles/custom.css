@@ -1,0 +1,48 @@
+:root {
+	--neversink-title-font: 'Pretendard JP', sans-serif;
+	--neversink-main-font: 'Pretendard JP', sans-serif;
+	--neversink-mono-font: 'Sarasa Term K Nerd Font', monospace;
+	--neversink-quote-font: 'Pretendard JP', monospace;
+
+	.slidev-layout.cover {
+		& h1, h2, h3 {
+			border-bottom: none;
+
+			&::after {
+				content: '';
+				display: block;
+				width: 50px;
+				height: 5px;
+				margin-top: 10px;
+				margin-left: 2px;
+				background: var(--neversink-highlight-color);
+			}
+		}
+	}
+
+	.slidev-layout ul {
+		list-style-type: disc;
+	}
+
+	.slidev-layout li {
+		margin-bottom: 0.5em;
+	}
+
+	.slidev-layout blockquote {
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+
+		& > p:first-child {
+			margin-top: 0;
+		}
+	}
+
+	.slidev-layout table {
+		width: auto;
+	}
+
+	.slidev-layout td, th {
+		padding: 0.3rem;
+		font-size: 0.8em;
+	}
+}
