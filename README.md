@@ -7,3 +7,8 @@
 * 발표 장소: `OrganiCon 2025`
 * [발표 자료](./slides/2025-02-01-debugging-v8-experience/slides.pdf)
 
+### `create-a-music-from-scratch`
+* 제목: **Making Simple Music from Zero**
+* 발표 일시: `2025. 11. 03 (월)`
+* 발표 장소: `KAIST CTP.40031` (Fundamentals of Computer Music)
+* [발표 자료](./slides/2025-11-03-create-a-music-from-scratch/slides.pdf)
