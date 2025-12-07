@@ -12,3 +12,9 @@
 * 발표 일시: `2025. 11. 03 (월)`
 * 발표 장소: `KAIST CTP.40031` (Fundamentals of Computer Music)
 * [발표 자료](./slides/2025-11-03-create-a-music-from-scratch/slides.pdf)
+
+----
+
+> [!WARNING]
+> `slides-private` 은 공개되지 않은 발표자료를 담고 있습니다.  
+> 해당 발표자료 자체는 공개되지 않으나, `pnpm-lock.yaml` 내에 패키지명은 기재될 수 있습니다.  
