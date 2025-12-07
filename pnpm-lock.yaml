@@ -37,6 +37,18 @@ importers:
         specifier: ^6.0.11
         version: 6.0.11(@types/node@22.18.13)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.1)
 
+  slides/2025-12-01-reasons-for-allergies-getting-harder:
+    devDependencies:
+      vite:
+        specifier: ^6.0.11
+        version: 6.0.11(@types/node@22.18.13)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.1)
+
+  slides/2025-12-06-creating-ai-pacman-ctp400:
+    devDependencies:
+      vite:
+        specifier: ^6.0.11
+        version: 6.0.11(@types/node@22.18.13)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.1)
+
 packages:
 
   '@antfu/install-pkg@1.1.0':

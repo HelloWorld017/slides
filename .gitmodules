@@ -1,0 +1,3 @@
+[submodule "slides-private"]
+	path = slides-private
+	url = git@github.com:HelloWorld017/slides-private.git
