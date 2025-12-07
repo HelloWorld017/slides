@@ -25,6 +25,18 @@ importers:
         specifier: ^52.1.0
         version: 52.6.0(@babel/parser@7.28.5)(@nuxt/kit@3.15.4(rollup@4.52.5))(@types/markdown-it@14.1.2)(@types/node@22.18.13)(@vue/compiler-sfc@3.5.22)(markdown-it-async@2.2.0)(postcss@8.5.6)(rollup@4.52.5)(tsx@4.19.2)
 
+  slides-private/2025-12-01-reasons-for-allergies-getting-harder:
+    devDependencies:
+      vite:
+        specifier: ^6.0.11
+        version: 6.0.11(@types/node@22.18.13)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.1)
+
+  slides-private/2025-12-06-creating-ai-pacman-ctp400:
+    devDependencies:
+      vite:
+        specifier: ^6.0.11
+        version: 6.0.11(@types/node@22.18.13)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.1)
+
   slides/2025-02-01-debugging-v8-experience:
     devDependencies:
       vite:
@@ -32,18 +44,6 @@ importers:
         version: 6.0.11(@types/node@22.18.13)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.1)
 
   slides/2025-11-03-create-a-music-from-scratch:
-    devDependencies:
-      vite:
-        specifier: ^6.0.11
-        version: 6.0.11(@types/node@22.18.13)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.1)
-
-  slides/2025-12-01-reasons-for-allergies-getting-harder:
-    devDependencies:
-      vite:
-        specifier: ^6.0.11
-        version: 6.0.11(@types/node@22.18.13)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.1)
-
-  slides/2025-12-06-creating-ai-pacman-ctp400:
     devDependencies:
       vite:
         specifier: ^6.0.11
