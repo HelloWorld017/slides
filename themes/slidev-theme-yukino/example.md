@@ -42,7 +42,10 @@ This theme is tuned for regular markdown writing flows. It keeps hierarchy obvio
 
 <FlowGroup>
   <FlowItem title="Observe" description="Collect a reproducible symptom before touching implementation details." icon="01" />
-  <FlowItem title="Inspect" icon="02">
+  <FlowItem title="Inspect">
+    <template #icon>
+        <lucide-arrow-right />
+    </template>
     Read runtime behavior and isolate one root cause candidate.
   </FlowItem>
   <FlowItem title="Conclude" description="Turn findings into a small, verifiable decision for the next slide." icon="03" />

@@ -21,13 +21,13 @@
   "devDependencies": {
     "@slidev/cli": "^52.14.1"
   },
-  "//": "Learn more: https://sli.dev/guide/write-theme.html",
   "slidev": {
     "colorSchema": "light",
     "defaults": {
       "fonts": {
-        "sans": "Plus Jakarta Sans",
-        "mono": "JetBrains Mono"
+        "sans": "Pretendard JP",
+        "mono": "Sarasa Gothic Term K",
+        "local": "Sarasa Gothic Term K,Pretendard JP"
       }
     }
   }
