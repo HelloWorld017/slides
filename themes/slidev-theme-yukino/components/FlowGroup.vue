@@ -1,5 +1,5 @@
 <template>
-  <div class="yukino-flow-group my-2">
+  <div class="flex flex-col yukino-flow-group my-2">
     <slot />
   </div>
 </template>
