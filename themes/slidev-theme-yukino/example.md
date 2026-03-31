@@ -1,6 +1,8 @@
 ---
 theme: ./
 title: Yukino Theme Preview
+presentedAt: 2026. 03. 31
+presentedBy: nenw*
 ---
 
 # Yukino
@@ -10,6 +12,8 @@ A bright, minimal theme for content-dense talks.
 ---
 layout: section
 ---
+
+## Section Layout
 
 <SectionLead
   eyebrow="Theme Direction"
@@ -64,18 +68,18 @@ This theme is tuned for regular markdown writing flows. It keeps hierarchy obvio
 
   <div>
 
-| Stage | Focus |
-| --- | --- |
+| Stage     | Focus                              |
+| --------- | ---------------------------------- |
 | Discovery | Confirm what is actually happening |
-| Analysis | Compare likely causes |
-| Decision | Pick the smallest safe change |
+| Analysis  | Compare likely causes              |
+| Decision  | Pick the smallest safe change      |
 
   </div>
 </div>
 
 ---
-layout: intro
----
+
+## layout: intro
 
 ## Thank You
 

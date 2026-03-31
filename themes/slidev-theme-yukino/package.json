@@ -10,16 +10,18 @@
     "node": ">=18.0.0"
   },
   "scripts": {
+    "format": "prettier . --write",
     "build": "slidev build example.md",
     "dev": "slidev example.md --open",
     "export": "slidev export example.md",
     "screenshot": "slidev export example.md --format png"
   },
-  "dependencies": {
-    "@slidev/types": "^52.14.1"
-  },
   "devDependencies": {
-    "@slidev/cli": "^52.14.1"
+    "@slidev/cli": "^52.1.0",
+    "prettier": "^3.8.1",
+    "prettier-plugin-classnames": "^0.10.1",
+    "prettier-plugin-merge": "^0.10.1",
+    "prettier-plugin-tailwindcss": "^0.7.2"
   },
   "slidev": {
     "colorSchema": "light",
