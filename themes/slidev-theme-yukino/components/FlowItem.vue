@@ -21,7 +21,7 @@ withDefaults(defineProps<Props>(), {
 }
 
 .yukino-flow-icon {
-  color: color-mix(in oklch, var(--yukino-accent) 80%, black 15%);
+  color: var(--yukino-accent);
   font-size: 0.92rem;
   font-weight: 700;
 }

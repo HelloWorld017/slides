@@ -3,6 +3,7 @@ theme: ./
 title: Yukino Theme Preview
 presentedAt: 2026. 03. 31
 presentedBy: nenw*
+transition: fade
 ---
 
 # Yukino
@@ -10,10 +11,6 @@ presentedBy: nenw*
 A bright, minimal theme for content-dense talks.
 
 ---
-layout: section
----
-
-## Section Layout
 
 <SectionLead
   eyebrow="Theme Direction"
@@ -56,30 +53,43 @@ This theme is tuned for regular markdown writing flows. It keeps hierarchy obvio
 </FlowGroup>
 
 ---
-
-## Data + Narrative
-
-<div class="yukino-columns">
-  <div>
-    <StatLine label="Deck runtime" value="35 min" note="Estimated live session time" />
-    <StatLine label="Core sections" value="4" />
-    <StatLine label="Code samples" value="11" note="Most are executable snippets" />
-  </div>
-
-  <div>
-
-| Stage     | Focus                              |
-| --------- | ---------------------------------- |
-| Discovery | Confirm what is actually happening |
-| Analysis  | Compare likely causes              |
-| Decision  | Pick the smallest safe change      |
-
-  </div>
-</div>
-
+layout: contents-left
 ---
 
-## layout: intro
+<template #left>
+  <img src="https://picsum.photos/700/1920" />
+</template>
+
+<SectionLead
+  eyebrow="Images"
+  title="Contents Left Structure"
+  subtitle="General markdown should stay clean in 16:9 without forcing everything into cards."
+/>
+
+<FlowItem title="Inspect">
+  <template #icon>
+      <lucide-arrow-right />
+  </template>
+  Read runtime behavior and isolate one root cause candidate.
+</FlowItem>
+
+<FlowItem title="Hello">
+  <template #icon>
+      <lucide-user />
+  </template>
+  How are you
+</FlowItem>
+
+<FlowItem title="Sekai no">
+  <template #icon>
+      <lucide-clock />
+  </template>
+  Ichiban ohimesama
+</FlowItem>
+
+---
+layout: intro
+---
 
 ## Thank You
 
