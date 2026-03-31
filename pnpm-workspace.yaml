@@ -1,6 +1,7 @@
 packages:
   - slides/*
   - slides-private/*
+  - themes/*
 
 ignoredBuiltDependencies:
   - vue-demi
