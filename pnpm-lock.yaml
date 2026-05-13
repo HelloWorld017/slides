@@ -42,7 +42,9 @@ importers:
 
   slides-private/2026-04-02-sslmanager-checkpoint01: {}
 
-  slides-private/2026-04-16-sslmanager-checkpoint02: {}
+  slides-private/2026-04-16-sslmanager-midterm: {}
+
+  slides-private/2026-05-14-sslmanager-checkpoint02: {}
 
   slides/2025-02-01-debugging-v8-experience:
     devDependencies:
